@@ -32,6 +32,9 @@ type Product {
 
   "The country of origin"
   originCountry: String
+  
+  "Information about an image"
+  primaryImage: ImageInfo
 
   "Subtitle"
   pageTitle: String
