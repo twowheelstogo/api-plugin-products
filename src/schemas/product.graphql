@@ -114,6 +114,9 @@ type ProductVariant {
   "Variant ID"
   _id: ID!
 
+  "category of the product on the invoice system"
+  categoryVariant: Int
+
   """
   The attribute label describes the category of variant, for example, `Color` or `Size`.
   In most cases this will be the same for all variants at the same level.
