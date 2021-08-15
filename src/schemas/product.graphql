@@ -480,7 +480,7 @@ input ProductVariantInput {
   "category of the product on the invoice system"
   categoryVariant: Int
   
-   "the product on the invoice system"
+  "the product on the invoice system"
   odooProduct: Int
 
   "The product variant barcode value, if it has one"
