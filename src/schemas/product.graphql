@@ -116,6 +116,9 @@ type ProductVariant {
 
   "category of the product on the invoice system"
   categoryVariant: Int
+  
+  "the product on the invoice system"
+  odooProduct: Int
 
   """
   The attribute label describes the category of variant, for example, `Color` or `Size`.
@@ -476,6 +479,9 @@ input ProductVariantInput {
 
   "category of the product on the invoice system"
   categoryVariant: Int
+  
+   "the product on the invoice system"
+  odooProduct: Int
 
   "The product variant barcode value, if it has one"
   barcode: String
