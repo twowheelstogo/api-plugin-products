@@ -155,6 +155,11 @@ export const VariantMedia = new SimpleSchema({
  * @property {Workflow} workflow optional
  */
 export const ProductVariant = new SimpleSchema({
+  "odooProduct": {
+    type: Number,
+    min: 0,
+    optional: true
+  },
   "categoryVariant": {
     type: Number,
     min: 0,
