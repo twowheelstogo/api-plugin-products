@@ -22,7 +22,6 @@ const inputSchema = new SimpleSchema({
  * @return {Promise<Object>} updated ProductVariant
  */
 export default async function updateProductVariant(context, input) {
-  console.log("input de variante es",input);
   inputSchema.validate(input);
   const { appEvents, collections, simpleSchemas } = context;
   const { ProductVariant } = simpleSchemas;
